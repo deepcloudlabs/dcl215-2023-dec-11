@@ -6,7 +6,7 @@ import org.junit.platform.suite.api.Suite;
 
 @Suite
 @SelectClasses({ AccountSpecification.class, CustomerSpecification.class })
-@IncludeTags(value = "unit")
+@IncludeTags(value = "integration")
 public class AllIntegrationTests {
 
 }
